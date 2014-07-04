@@ -1,5 +1,5 @@
 <h1>Doradidae</h1>
-<img src="https://github.com/RoberMac/Doradidae/blob/master/icon_128.png" />
+<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/icon_128.png" />
 
 
 
