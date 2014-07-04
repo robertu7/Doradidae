@@ -1,0 +1,15 @@
+{
+	"name": {
+		"message": "清道夫 Doradidae",
+		"description": "扩展标题"
+	},
+	"description": {
+		"message": "乜都吃得,乜都改到",
+		"description": "扩展描述"
+	},
+	"menuTitle_before": {
+		"message": "修改此页面",
+		"description": "右键菜单标题"
+	}
+
+}

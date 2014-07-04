@@ -1,0 +1,24 @@
+
+
+#doradidae-menu a img {
+	position: fixed;
+	width: 64px;
+	height: 64px;
+	z-index: 99999;
+
+}
+
+#doradidae-menu a img:hover {
+	
+	-webkit-animation: opac 0.2s ease infinite alternate;
+
+}
+	@-webkit-keyframes opac 
+	{
+	0% {
+		-webkit-transform:rotate(0deg); 
+	}
+	100% {
+		-webkit-transform:rotate(5deg);
+	} 
+

@@ -1,0 +1,14 @@
+{
+	"name": {
+		"message": "琵琶鱼 Doradidae",
+		"description": "擴展標題"
+	},
+	"description": {
+		"message": "啥都能吃,啥都能改",
+		"description": "擴展描述"
+	},
+	"menuTitle_before": {
+		"message": "修改此頁面",
+		"description": "右鍵選單標題"
+	}
+}

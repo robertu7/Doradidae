@@ -1,0 +1,13 @@
+{
+	"name": {
+		"message": "Doradidae",
+		"description": "ext_name"
+	},
+	"description": {
+		"message": "Eat Everthing,Change Everthing",
+		"description": "ext_description"
+	},
+	"menuTitle_before": {
+		"message": "Change this page"
+	}
+}
