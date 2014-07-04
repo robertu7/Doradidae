@@ -9,7 +9,9 @@
   <li>修改任何页面的文本</li>
 </ul>
 
-
+<h2>Croak</h2>
+<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/alipay.jpg" />
+<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/worldcup.jpg" />
 
 <h2>License</h2>
 
