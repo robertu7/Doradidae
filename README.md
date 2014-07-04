@@ -12,7 +12,7 @@
 <h2>How to install ?</h2>
 <ol>
 	<li>下载「<a href="https://github.com/RoberMac/Doradidae/raw/master/lib/Doradidae.crx">Doradidae.crx</a>」</li>
-	<li>打开 Chrome - 偏好设置 - 扩展程序 - 勾选「开发者模式」</li>
+	<li>打开 Chrome(360/猎豹/搜狗浏览器等没测试) - 偏好设置 - 扩展程序 - 勾选「开发者模式」</li>
 	<li>把文件拖拽到浏览器该页面</li>
 </ol>
 
