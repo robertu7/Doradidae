@@ -7,7 +7,7 @@
 
 <ul>
   <li>修改任何页面的文本 [0.2.0]</li>
-  <li >截取可视部分页面 [0.2.2]</li>
+  <li>*截取可视部分页面 [0.2.2]</li>
 </ul>
 
 <h2>如何安装? How to install ?</h2>
@@ -26,10 +26,10 @@
 </ol>
 
 <h2>呱呱叫 Croak</h2>
-<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/alipay.jpg" width="678px"/>
+<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/alipay.jpg" width="512px"/>
 <br />
 <br />
-<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/worldcup.jpg" width="678px"/>
+<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/worldcup.jpg" width="512px"/>
 
 
 <h2>许可证 License</h2>
