@@ -1,6 +1,6 @@
 <h1>清道夫 Doradidae</h1>
 <p>「Chrome 扩展」: 修改任何页面的文本</p>
-<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/lib/icon_128.png" />
+<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/lib/icon_256.png" width="128px" />
 
 
 <h2>功能特性 Features</h2>
