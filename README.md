@@ -21,7 +21,11 @@ Chrome:
 	<li>把文件拖拽到浏览器该页面</li>
 </ol>
 
-Safari: 双击安装
+Safari: 
+<ol>
+	<li><a href="https://github.com/RoberMac/Doradidae/raw/master/Safari/Doradidae.safariextz">下載</a></li>
+	<li>双击安装</li>
+</ol>
 
 <h2>如何使用? How to use ?</h2>
 <ol>
