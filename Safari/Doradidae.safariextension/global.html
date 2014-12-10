@@ -1,0 +1,11 @@
+<script> 
+ // Register for the `command` events. 
+ safari.application.addEventListener('command', performCommand, false); 
+
+ function performCommand(event) 
+ { 
+    if (event.command != 'cmClick') 
+        return; 
+    safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('cmClick', 'on');
+ }
+ </script>
