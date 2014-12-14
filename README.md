@@ -31,7 +31,7 @@ Safari:
 <ol>
 	<li>确保扩展「已启用」</li>
 	<li>在目标网页「右键鼠标」- 点击「Doradidae」(<a href="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/tutorial/3.png">图3</a>) - 进入「编辑模式」(<a href="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/tutorial/4.png">图4</a>) -  修改该页面任意「文本」(<a href="https://raw.githubusercontent.com/RoberMac/Doradidae/master/test/tutorial/5.png">图5</a>)</li>
-	<li>修改完毕后点击页面顶部的「Doradidae Logo」退出「编辑模式」.</li>
+	<li>修改完毕后点击页面顶部的「<img src="https://raw.githubusercontent.com/RoberMac/Doradidae/master/Chrome/lib/icon_256.png" alt="Doradidae Logo" width="16px">」退出「编辑模式」.</li>
 </ol>
 
 <h2>呱呱叫 Croak</h2>
