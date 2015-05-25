@@ -1,0 +1,287 @@
+html {
+	/* @lianghai http://www.zhihu.com/question/19911793/answer/13329819 */
+	font-family: "Helvetica Neue","Palatino","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	/* normalize.css */	
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+img {
+  border: 0;
+}
+h1 {
+	margin: 0;
+}
+h4 {
+	font-weight: 300;
+	margin-top: 0;
+}
+ol {
+    font-weight: 300;
+    font-size: 13px;
+    list-style-position: inside;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    padding-bottom: 22px;
+}
+code {
+	padding: 2px;
+	font-family: monospace;
+	font-size: 11px;	
+	border: 1px dotted black;
+	border-radius: 3px;
+	background-color: #eee;
+}
+a, a:active, a:hover, a:visited {
+	text-decoration:none;
+	color: black;
+}
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+.nav {
+	top: 0px;
+	width: 64px;
+	opacity: 0;
+}
+.banner {
+	margin-top: 9%;
+}
+
+
+
+.banner img {
+    max-width: 20%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px), (min-device-width : 768px) and (max-device-width : 1024px), (min-width: 320px) and (max-width: 1120px) {
+    .banner img {
+        max-width: 75%;
+    }
+}
+
+
+
+.banner1 {
+    animation         : banner_ani 1.5s forwards;
+    -webkit-animation : banner_ani 1.5s forwards;
+}
+@keyframes banner_ani {
+    from {margin-top: 9%}
+    to {margin-top: 2%}
+}
+@-webkit-keyframes banner_ani {
+    from {margin-top: 9%}
+    to {margin-top: 2%}
+}
+
+
+.nav1 {
+    animation         : nav_ani 1s forwards;
+    -webkit-animation : nav_ani 1s forwards;                
+}
+@keyframes nav_ani {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@-webkit-keyframes nav_ani {
+    from {opacity: 0}
+    to {opacity: 1}
+}   
+
+#description {
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.function {
+    width: 35%;
+    height: 50%;
+    border: 1px solid #505962;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 0.8%;
+    margin: 2.6% 1.7% 2.6% 1.7%;
+    display: inline-block;
+    background-color: #505962;
+    color: #FCFAF2;
+    -webkit-transition: width 1s ease;
+            transition: width 1s ease;
+}
+.function p:focus {
+	outline:0;
+}
+
+#flash:hover {
+    animation         : flash 0.5s forwards;
+    -webkit-animation : flash 0.5s forwards;        
+}
+@keyframes flash {
+    from {background-color: #FFFFFF}
+    to {background-color: #505962}
+}
+@-webkit-keyframes flash {
+    from {background-color: #FFFFFF}
+    to {background-color: #505962}
+}       
+h2:first-child {
+    margin-top: 80px;
+}
+h2 {
+    font-weight: 300;
+}
+
+#text {
+    text-align: left;
+    width: 77%;
+}
+#awesome {
+    opacity: 0;     
+}
+#awesome {
+    animation         : opac 2s ease 1s forwards;
+    -webkit-animation : opac 2s ease 1s forwards;           
+}
+@keyframes opac {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@-webkit-keyframes opac {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+/* https://proto.io/freebies/onoff */
+.onoffswitch {
+    position: relative; width: 70px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #FFFFFF; border-radius: 17px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 27px; padding: 0; line-height: 27px;
+    font-size: 10px; color: white;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #CB1B45; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #47B2E3; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 19px; margin: 4px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF; border-radius: 17px;
+    position: absolute; top: 0; bottom: 0; right: 39px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+.dl {
+    padding: 2px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: background-color 0.5s;
+            transition: background-color 0.5s;
+    -webkit-transition: color 0.5s;
+            transition: color 0.5s;
+}
+#dlChrome {
+    border: 1px solid #CB1B45;
+
+}
+#dlChrome:hover {
+    background-color: #CB1B45;
+    color: #fff;
+}
+#dlSafari {
+    border: 1px solid #47B2E3;
+}
+#dlSafari:hover {
+    background-color: #47B2E3;
+    color: #fff;
+}
+
+#demo img {
+    width: 77%;
+    border: 1px dashed black;
+    margin-bottom: 20px;
+    -webkit-transition: width 0.8s ease;
+            transition: width 0.8s ease;            
+}
+#video_demo {
+    position: absolute;
+}
+#video_demo video {
+    width: 59.29%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) , (min-device-width : 768px) and (max-device-width : 1024px), (min-width: 320px) and (max-width: 1120px) {
+
+    #description {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #text {
+        width: 95%;
+    }
+    
+    .function {
+        width: 60%;
+        height: 60%;
+        padding: 0px;
+        margin: 15px auto 15px auto;
+        display: block;
+    }
+
+    #demo img {
+        width: 95%;
+    }           
+}
+
+@media only screen (min-device-width : 768px) and (max-device-width : 1024px), (min-width: 768px) and (max-width: 1120px){
+    #text {
+        width: 60%;
+    }
+
+    #demo img {
+        width: 60%;
+    }
+
+}

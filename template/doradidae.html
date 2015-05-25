@@ -1,0 +1,68 @@
+<div id="awesome">		
+	<!-- description -->
+	<div id="description" class="center">
+		<h2>功能</h2>
+		<div>
+			<div class="function" ng-mouseenter="handleContent()">
+				<p contenteditable>{{contentEditable}}</p>
+			</div>
+			<div ng-if="isChrome" class="function" ng-mouseenter="handleFlash()" ng-click="handleFlash()" id="flash">
+				<p>截取可视部分页面为图片</p>
+			</div>
+		</div>
+
+		<h2>安装</h2>
+
+		<div style="padding-bottom:20px">
+			<div class="onoffswitch center">
+			    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+			    <label class="onoffswitch-label" for="myonoffswitch" ng-click="toggleBrowser()">
+			        <span class="onoffswitch-inner"></span>
+			        <span class="onoffswitch-switch"></span>
+			    </label>
+			</div>			
+		</div>
+
+
+		<div ng-switch on="isChrome">
+			<div id="text" class="center" ng-switch-when="true">
+				<ol>
+					<li><a id="dlChrome" class="dl" href="https://github.com/RoberMac/Doradidae/raw/master/Chrome/Doradidae.crx">下载</a></li>
+					<li>打开 Chrome - <code>偏好设置</code> - <code>扩展程序</code> - 勾选「开发者模式」</li>
+					<li>把文件拖拽到该页面安装</li>
+				</div>
+				<div id="text" class="center" ng-switch-when="false">
+					<ol>
+						<li><a id="dlSafari" class="dl" href="https://github.com/RoberMac/Doradidae/raw/master/Safari/Doradidae.safariextz">下载</a></li>
+						<li>双击安装</li>							
+					</ol>
+				
+				</ol>
+
+			</div>		
+		</div>
+
+
+		<h2>教程</h2>
+		<div id="text" class="center">
+			<ol>
+				<li>确保扩展 <code>已启用</code></li>
+				<li>在目标网页「右键鼠标」- 点击「Doradidae」便可进入「编辑模式」</li>
+				<li>修改该页面任意「文本」</li>			
+				<li>修改完毕后点击页面顶部的「<img src="./img/favicon.ico" alt="Doradidae Logo" width="13px">」退出「编辑模式」.</li>				
+			</ol>
+
+			</div>
+
+		<h2>演示</h2>
+		<div id="demo">
+			<img src="./img/imdb.png" alt="imdb screenshot" />
+			<img src="./img/alipay.png" alt="alipay screenshot" />
+		</div>
+	</div>
+</div>
+
+<audio id="camera_click">
+	<source src="./sound/iPhone_Camera_Click.ogg" type="audio/ogg">
+	<source src="./sound/iPhone_Camera_Click.wav" type="audio/wav">
+</audio>
